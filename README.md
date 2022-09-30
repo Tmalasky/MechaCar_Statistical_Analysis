@@ -67,4 +67,5 @@ Run t-tests to determine if the manufacturing lots are statistically different f
 
 
 Deliverable 4: Design a Study Comparing the MechaCar to the Competition
-Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+- An additional metric )not in the MechaCar_mpg dataset) is horsepower (or a surrogate measure liek engine size or number of cylinders). Manufactors often note a smaller engine size (8 vs 6 vs 4) result in imporved mpg.
+- The Null hypothesis would be there is no statistical difference while the Alternative hypothesis would be there is a difference.
