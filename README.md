@@ -41,9 +41,30 @@ Collect summary statistics on the pounds per square inch (PSI) of the suspension
 - A1. In total the specification are met with variance of 62.29 (less than 100).
 - A2. By Lots, Lots 1 & 2 are within specifications; however Lot 3 has a variance that exceeds specifications (100 PSI).
 
-
 Deliverable 3: T-Test on Suspension Coils
 Run t-tests to determine if the manufacturing lots are statistically different from the mean population
+
+- Q1.Are all manufacturing lots (and each lot individually) statistically different from the popluation ,eam of 1,500 pounds per square inch.
+- Methodology (all manufacturing lots): Perform a t.test using PSI and muof 1500 and evaluate the resulting p-value for significance using a .05 level of significance.
+
+![Screen Shot 2022-09-30 at 6 58 34 PM](https://user-images.githubusercontent.com/105253626/193367618-312abd43-562f-41dc-b093-b71f8a173d36.png)
+
+- All Lots are not significantly different from the population mean (with a p-value of 0.060).
+
+- Methodology (by lots usig subsets): Perform a t.test using subsets to examine the resulting p-value for significance.
+
+- Lot 1 is not significantly different from the population mean(with a p-value of 1)
+
+![Screen Shot 2022-09-30 at 6 58 52 PM](https://user-images.githubusercontent.com/105253626/193367795-8a8e2a2d-77b2-401f-87de-5cac674bbc05.png)
+
+- Lot 2 is not significantly different from the population mean (with a p-value of 0.61)
+ 
+ ![Screen Shot 2022-09-30 at 6 59 14 PM](https://user-images.githubusercontent.com/105253626/193367883-16da732a-681a-4440-b9ab-f79254c442d4.png)
+ 
+- Lot 3 is significantly different from the population mean (with a p-value of 0.042)
+
+![Screen Shot 2022-09-30 at 6 59 29 PM](https://user-images.githubusercontent.com/105253626/193367966-5a550187-f751-4aff-9bc7-7c01adc35c2e.png)
+
 
 Deliverable 4: Design a Study Comparing the MechaCar to the Competition
 Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
